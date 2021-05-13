@@ -1,6 +1,6 @@
 /* Background IMG */
 body {
-  background-image: url('../img/highway.png');
+  background-image: url('../img/highwayvtwo.png');
   height: 16231px;
   background-repeat: repeat-y;
   background-size: 100% 100%;
@@ -10,6 +10,11 @@ div#car{
   position: fixed;
   left: 35%;
 }
+
+div#stickysign{
+  position: fixed;
+}
+
 
 /* Stop #1 */
 .tool {
