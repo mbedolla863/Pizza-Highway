@@ -12,28 +12,28 @@ div#car{
 }
 
 /* Stop #1 */
-.tool {
+.tool1 {
   position: absolute;
   width: 15%;
   display: inline-block;
   top: 120%;
   left: 5%;
-  opacity: 0;
-  transform: translateY(50px);
-  transition: all 6s ease-out;
+  /* opacity: 0; */
+  /* transform: translateY(50px);
+  transition: all 6s ease-out; */
 }
 
-.tool.fade-in {
+/* .tool1.fade-in {
 opacity: 1;
 transform: translateY(0);
-}
+} */
 
-.tool img {
+.tool1 img {
   position: relative;
   width: 100%;
 }
 
-.tool .right {
+.tool1 .right1 {
     min-width:200px;
     max-width:400px;
     top:50%;
@@ -41,7 +41,7 @@ transform: translateY(0);
     margin-left:20px;
     transform:translate(0, -50%);
     padding:0;
-    color:#EEEEEE
+    color:#EEEEEE;
     background-color:#444444;
     font-weight:normal;
     font-size:13px;
@@ -53,20 +53,20 @@ transform: translateY(0);
     visibility:hidden; opacity:0; transition:opacity 0.8s;
 }
 
-.tool:hover .right {
+.tool1:hover .right1 {
     visibility:visible; opacity:1;
 }
 
-.tool .right img {
+.tool1 .right1 img {
     width:400px;
     height: 300px;
     border-radius:8px 8px 0 0;
 }
-.tool .text-content {
+.tool1 .text-content {
     padding:10px 20px;
 }
 
-.tool .right i {
+.tool1 .right1 i {
     position:absolute;
     top:50%;
     right:100%;
@@ -91,7 +91,7 @@ transform: translateY(0);
   width: 100%;
 }
 
-.tool2 .left {
+.tool2 .left1 {
     min-width:200px;
     max-width:400px;
     top:50%;
@@ -111,11 +111,11 @@ transform: translateY(0);
     visibility:hidden; opacity:0; transition:opacity 0.8s;
 }
 
-.tool2:hover .left {
+.tool2:hover .left1 {
     visibility:visible; opacity:1;
 }
 
-.tool2 .left img {
+.tool2 .left1 img {
     width:400px;
     height: 300px;
     border-radius:8px 8px 0 0;
@@ -124,7 +124,7 @@ transform: translateY(0);
     padding:10px 20px;
 }
 
-.tool2 .left i {
+.tool2 .left1 i {
     position:absolute;
     top:50%;
     right:100%;
