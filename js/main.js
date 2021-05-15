@@ -1,23 +1,19 @@
 // zQ61m8lyIbs_0vXutYJrQzeJWejCvd1O4iKGXuk1D2UQiqCldMu_mfK0ifLx2n8hRjElZzVMCD8Egi8cpJFd2M2_FnevXfaiQRXwaPV9psZ_WvdERDQZhCBVC-iSYHYx
 //https://www.youtube.com/watch?v=0Sy14hX8T-A
 var pizzaObj = [
-  // {
-  //   yelpid: "engfer-pizza-works-santa-cruz",
-  //   name: "Engfer Pizza Works",
-  //   city: "Santa Cruz, CA",
-  //   image_url: "",
-  //   url: ""
-  // },
-  // {
-  //   yelpid: "woodstocks-pizza-slo-san-luis-obispo-6",
-  //   name: "Woodstocks Pizza",
-  //   city: "San Luis Obispo, CA",
-  //   image_url: "",
-  //   url: ""
-  // }
+  {
+    yelpid: "JmTt_EYc_Gpt42mojPFSSw",
+    name: "brick-and-fire-bistro-eureka-2",
+    city: "Eureka, CA",
+  },
+  {
+    yelpid: "mSMZJj2pFvttWLpcDmgrEA",
+    name: "tonys-pizza-napoletana-san-francisco",
+    city: "San Francisco, CA",
+  },
   {
     yelpid: "Gqx2aA1Lta2bYqEUBRdRwg",
-    name: "blue-line-pizza",
+    name: "blue-line-pizza-mountain-view",
     city: "Mountain View, CA",
   },
   {
@@ -56,6 +52,7 @@ var pizzaObj = [
     city: "San Diego, CA"
   }
 ]
+
 // yelp does not support CORS so use this:  https://cors-anywhere.herokuapp.com/
  var token = 'Bearer FDwAQ1VbHuCrPxvS1Cox8n44s7cTipJVD1RoljBdx_v3eCzYBqGXoMC9DuwschQhg9hK2yp15xaJFcLUQiz96GOmDIWPDK7v7EsH38y9i9sCz61T4Nwdcqnjw2WUYHYx';
  //var yelp_search_url = "https://api.yelp.com/v3/businesses/search";
@@ -120,8 +117,6 @@ var pizzaObj = [
   //
   // })
 
-
-
   }
 
 function contentMaker(data) {
@@ -170,21 +165,10 @@ function make_safe(str) {
   return str.replace(/'/g, '&apos;').replace(/"/g, '&quot;');
 }
 
-// console.log(content);
-
-
 //typeof is a JavaScript keyword that will return the type of a variable when you
 //call it. You can use this to validate function parameters or check if variables
 //are defined
 
-
-
-//List from Wes
-// pizzaList = [
-//   "engfer-pizza-works-santa-cruz",
-//   "woodstocks-pizza-slo-san-luis-obispo-6",
-// ]
-//
 
 //JmTt_EYc_Gpt42mojPFSSw
 //Tonys Pizza Napoletana id : mSMZJj2pFvttWLpcDmgrEA
