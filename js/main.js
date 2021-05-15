@@ -77,8 +77,6 @@ var pizzaObj = [
       // }
       success: function(data){
         // console.log(data);
-
-        //
         // let content = "";
         // for(let i = 0; i < pizzaObj.length; i++) {
           let html = `<div class="tool${i+1}">`
@@ -96,8 +94,6 @@ var pizzaObj = [
           html+=`</div> </div>`
           $("#toolHandler").append(html)
         // }
-        //
-        //
 
           //var dateNum = data.date;
 
@@ -164,19 +160,3 @@ function contentMaker(data) {
 function make_safe(str) {
   return str.replace(/'/g, '&apos;').replace(/"/g, '&quot;');
 }
-
-//typeof is a JavaScript keyword that will return the type of a variable when you
-//call it. You can use this to validate function parameters or check if variables
-//are defined
-
-
-//JmTt_EYc_Gpt42mojPFSSw
-//Tonys Pizza Napoletana id : mSMZJj2pFvttWLpcDmgrEA
-// Blue Line Pizza id : Gqx2aA1Lta2bYqEUBRdRwg
-// Bibo's NY Pizza id: QNzqZtNb_I1mcHAviE5zeQ
-// Giuseppe’s Express: 6NltjvK48THHxOP78m-pbA
-// Gino's SLO id: r_QP-r1d-0ig2qabzCMMLQ
-// Fatte’s Pizza of Santa Maria id: PGrbZ2-StT9SuEsqXdNL0w
-// Olio Pizzeria id: 4D7QDfPOsSPfKxBi3gs_qQ
-// De Sanos Pizza id: fD4ntpbf92ufSHn5tSmSxA
-// Ambrogio15 id: tF6o3Fr-P87vBCvp4bCVdg
