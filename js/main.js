@@ -131,18 +131,35 @@ function contentMaker(data) {
   // that confuses the html
   let name = data.name;
    //console.log("orig title:", title);
-  name = make_safe(name);
+   name = make_safe(name);
    console.log("safe title:", name);
 
-  let url = data.url;
-   //console.log("orig explanation:", explanation);
-  url = make_safe(url);
-   console.log("safe url:", url);
+  let price = data.price;
+  //console.log("orig explanation:", explanation);
+   price = make_safe(price);
+   console.log("safe price:", price);
+
+  let display_phone = data.display_phone;
+  //console.log("orig explanation:", explanation);
+   display_phone = make_safe(display_phone);
+   console.log("safe phone:", display_phone);
+
+  let locationaddress1 = data.location.address1;
+  //console.log("orig explanation:", explanation);
+   locationaddress1 = make_safe(locationaddress1);
+   console.log("safe location:", locationaddress1);
+
+  let locationcity = data.location.city;
+  //console.log("orig explanation:", explanation);
+   locationcity = make_safe(locationcity);
+   console.log("safe location:", locationcity);
 
   let html = `<div id="imageblock">
   <h2>${name}</h2>
-    <img src="${imageUrl}" title="${name}"><br>
-    <p> ${url}</p>
+  <img src="${imageUrl}" title="${name}"><br>
+  <p2>${price}</p2><br>
+  <p3>${display_phone}</p3><br>
+  <p3>${locationaddress1}, ${locationcity}</p3>
 
   </div>`
 
